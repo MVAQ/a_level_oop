@@ -1,6 +1,8 @@
 <?php
 
 namespace dz1;
+include_once 'Direction.php';
+include_once 'Course.php';
 
 class Group extends Course
 {
@@ -108,3 +110,5 @@ class Group extends Course
     }
 
 }
+
+echo 'Hello world' . PHP_EOL;
