@@ -1,8 +1,8 @@
 <?php
 
-namespace dz2;
 
-include_once "RodElement.php";
+include_once 'RodElement.php';
+
 
 class Bait extends RodElement
 {

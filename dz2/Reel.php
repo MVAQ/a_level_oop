@@ -1,6 +1,7 @@
 <?php
 
-namespace dz2;
+
+include_once 'RodElement.php';
 
 class Reel extends RodElement
 {
