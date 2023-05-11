@@ -12,7 +12,7 @@ class Fishing
 
     private Rod $rod;
 
-    public function mountFishingRod($line, $reel, $bait): Rod
+    public function mountFishingRod(Line $line, Reel $reel, Bait $bait): Rod
     {
         $this->rod = new Rod ($line, $reel, $bait);
 
